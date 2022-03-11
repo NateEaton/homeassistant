@@ -1,8 +1,6 @@
 blueprint:
   name: State Based Entity Control Without Target Entity Trigger
-  description: Change the target entity to desired entity state base on the trigger 
-  entity's state, illuminance sensor's state, Sun elevation and so on.
-  Mods by NEatonJr to ignore state of target entity. 
+  description: Change the target entity to desired entity state base on the trigger entity's state, illuminance sensor's state, Sun elevation and so on. Based on kevinxw/state_based_entity_control.yaml with mods by NEatonJr to ignore state of target entity. 
   domain: automation
   input:
     trigger_entity:
